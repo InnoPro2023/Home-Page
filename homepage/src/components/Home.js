@@ -1,19 +1,18 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
 
 class Home extends React.Component{
     render(){
         return(
-    <div>
+    <>
         <div class="frame1">
             <div class="header">
-                <img class="logo" src="image/logo.png"/>
+                <img class="logo" src="image/logo.png" alt="Logo"/>
                 <form class='search'>
                     <input type="text" placeholder="What are you looking for?..."/>
                         <button type="submit">Search</button>
                 </form>
-                <img class="contact-us" src="image/CONTACT US.png"/>
-                <img class="Social" src="image/SOCIAL MEDIA.png"/>
+                <img class="contact-us" src="image/CONTACT US.png" alt="Contact Us"/>
+                <img class="Social" src="image/SOCIAL MEDIA.png" alt="Social"/>
             </div>
             <div class="header2">
                 <div class="box1">
@@ -23,10 +22,10 @@ class Home extends React.Component{
                     <div>Contact</div>
                 </div>
                 <div class="box2">
-                    <img src="image/search.png"/>
-                    <img src="image/acc.png"/>
-                    <img src="image/like.png"/>
-                    <img src="image/cart.png"/>
+                    <img src="image/search.png" alt="a"/>
+                    <img src="image/acc.png" alt="a"/>
+                    <img src="image/like.png" alt="a"/>
+                    <img src="image/cart.png" alt="a"/>
                 </div>
             </div>
             <div class="header3">
@@ -35,8 +34,8 @@ class Home extends React.Component{
                     <div>CHÀ BÔNG</div>
                     <div class="adjust">CHẤT LƯỢNG</div>
                 </div>
-                <img class="shopnow" src="image/go to shop.png"/>
-                <img class="elispe" src="image/Ellipse 32.png"/>
+                <img class="shopnow" src="image/go to shop.png" alt="a"/>
+                <img class="elispe" src="image/Ellipse 32.png" alt="a"/>
             </div>
         </div>
         <div class="frame2">
@@ -52,7 +51,7 @@ class Home extends React.Component{
                 <div class="child1"> description description description description description description desdesdes here :)</div>
                 <div class="child2"> description description descriptionption description description description descriptioscription description diption description description description description description descriptionion description description description desc</div>
             </div>
-            <img class="box3" src="image/vegetable.png"/>
+            <img class="box3" src="image/vegetable.png" alt="a"/>
         </div>
         <div class="frame4">
             <button class="box1">TẤT CẢ SẢN PHẨM</button>
@@ -123,8 +122,8 @@ class Home extends React.Component{
                 </div>
             </div>
         </div>
-        <img class="frame5" src="image/Frame 5.png"/>
-        <img class="frame6" src="image/Frame 6.png"/>
+        <img class="frame5" src="image/Frame 5.png" alt="a"/>
+        <img class="frame6" src="image/Frame 6.png" alt="a"/>
         <div class="frame7">
             <div class="invisible-box">
                 <div class="box1"> GET IN TOUCH</div>
@@ -151,9 +150,9 @@ class Home extends React.Component{
                 <a class="create" href="##">Create account</a>
             </div>
         </div>
-        <img class="frame8" src="image/Frame 8.png"/>
-        <img class="frame9" src="image/Frame 9.png"/>
-    </div>
+        <img class="frame8" src="image/Frame 8.png" alt="a"/>
+        <img class="frame9" src="image/Frame 9.png" alt="a"/>
+    </>
         )
     }
 }
