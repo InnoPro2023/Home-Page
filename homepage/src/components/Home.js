@@ -10,7 +10,7 @@ class Home extends React.Component{
                 <img class="logo" src="image/logo.png"/>
                 <form class='search'>
                     <input type="text" placeholder="What are you looking for?..."/>
-                    <button type="submit">Search</button>
+                        <button type="submit">Search</button>
                 </form>
                 <img class="contact-us" src="image/CONTACT US.png"/>
                 <img class="Social" src="image/SOCIAL MEDIA.png"/>
