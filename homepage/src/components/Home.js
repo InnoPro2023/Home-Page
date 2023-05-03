@@ -1,6 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
+
 const navLinkStyles = ({ isActive }) => {
 	return {
 		fontWeight: 'bold',
@@ -14,13 +15,13 @@ const navLinkStyles = ({ isActive }) => {
     <>
         <div className="frame1">
             <div className="header">
-                <img className="logo" src="image/logo.png" alt="Logo"/>
+                <img className="logo" src="imageHome/logo.png" alt="Logo"/>
                 <form className='search'>
                     <input type="text" placeholder="What are you looking for?..."/>
                         <button type="submit">Search</button>
                 </form>
-                <img className="contact-us" src="image/CONTACT US.png" alt="Contact Us"/>
-                <img className="Social" src="image/SOCIAL MEDIA.png" alt="Social"/>
+                <img className="contact-us" src="imageHome/CONTACT US.png" alt="Contact Us"/>
+                <img className="Social" src="imageHome/SOCIAL MEDIA.png" alt="Social"/>
             </div>
             <div className="header2">
                 <div className="box1">
@@ -30,10 +31,10 @@ const navLinkStyles = ({ isActive }) => {
                     <div>Contact</div>
                 </div>
                 <div className="box2">
-                    <img src="image/search.png" alt="a"/>
-                    <img src="image/acc.png" alt="a"/>
-                    <img src="image/like.png" alt="a"/>
-                    <img src="image/cart.png" alt="a"/>
+                    <img src="imageHome/search.png" alt="a"/>
+                    <img src="imageHome/acc.png" alt="a"/>
+                    <img src="imageHome/like.png" alt="a"/>
+                    <img src="imageHome/cart.png" alt="a"/>
                 </div>
             </div>
             <div className="header3">
@@ -42,8 +43,8 @@ const navLinkStyles = ({ isActive }) => {
                     <div>CHÀ BÔNG</div>
                     <div className="adjust">CHẤT LƯỢNG</div>
                 </div>
-                <img className="shopnow" src="image/go to shop.png" alt="a"/>
-                <img className="elispe" src="image/Ellipse 32.png" alt="a"/>
+                <img className="shopnow" src="imageHome/go to shop.png" alt="a"/>
+                <img className="elispe" src="imageHome/Ellipse 32.png" alt="a"/>
             </div>
         </div>
         <div className="frame2">
@@ -59,79 +60,79 @@ const navLinkStyles = ({ isActive }) => {
                 <div className="child1"> description description description description description description desdesdes here :)</div>
                 <div className="child2"> description description descriptionption description description description descriptioscription description diption description description description description description descriptionion description description description desc</div>
             </div>
-            <img className="box3" src="image/vegetable.png" alt="a"/>
+            <img className="box3" src="imageHome/vegetable.png" alt="a"/>
         </div>
         <div className="frame4">
             <button className="box1">TẤT CẢ SẢN PHẨM</button>
             <div className="container1">
                 <div className="invisible-box">
                     <div className="white-box"></div>
-                    <div className="name-product">Tên Sản Phẩm</div>
+                    <div className="name-product"><NavLink to="Product">Tên Sản Phẩm</NavLink></div>
                     <div className="price-product">00.00 VNĐ</div>
                 </div>
                 <div className="invisible-box">
                     <div className="white-box"></div>
-                    <div className="name-product">Tên Sản Phẩm</div>
+                    <div className="name-product"><NavLink to="Product">Tên Sản Phẩm</NavLink></div>
                     <div className="price-product">00.00 VNĐ</div>
                 </div>
                 <div className="invisible-box">
                     <div className="white-box"></div>
-                    <div className="name-product">Tên Sản Phẩm</div>
+                    <div className="name-product"><NavLink to="Product">Tên Sản Phẩm</NavLink></div>
                     <div className="price-product">00.00 VNĐ</div>
                 </div>
                 <div className="invisible-box">
                     <div className="white-box"></div>
-                    <div className="name-product">Tên Sản Phẩm</div>
+                    <div className="name-product"><NavLink to="Product">Tên Sản Phẩm</NavLink></div>
                     <div className="price-product">00.00 VNĐ</div>
                 </div>
             </div>
             <div className="container2">
                 <div className="invisible-box">
                     <div className="white-box"></div>
-                    <div className="name-product">Tên Sản Phẩm</div>
+                    <div className="name-product"><NavLink to="Product">Tên Sản Phẩm</NavLink></div>
                     <div className="price-product">00.00 VNĐ</div>
                 </div>
                 <div className="invisible-box">
                     <div className="white-box"></div>
-                    <div className="name-product">Tên Sản Phẩm</div>
+                    <div className="name-product"><NavLink to="Product">Tên Sản Phẩm</NavLink></div>
                     <div className="price-product">00.00 VNĐ</div>
                 </div>
                 <div className="invisible-box">
                     <div className="white-box"></div>
-                    <div className="name-product">Tên Sản Phẩm</div>
+                    <div className="name-product"><NavLink to="Product">Tên Sản Phẩm</NavLink></div>
                     <div className="price-product">00.00 VNĐ</div>
                 </div>
                 <div className="invisible-box">
                     <div className="white-box"></div>
-                    <div className="name-product">Tên Sản Phẩm</div>
+                    <div className="name-product"><NavLink to="Product">Tên Sản Phẩm</NavLink></div>
                     <div className="price-product">00.00 VNĐ</div>
                 </div>
             </div>
             <div className="container3">
                 <div className="invisible-box">
                     <div className="white-box"></div>
-                    <div className="name-product">Tên Sản Phẩm</div>
+                    <div className="name-product"><NavLink to="Product">Tên Sản Phẩm</NavLink></div>
                     <div className="price-product">00.00 VNĐ</div>
                 </div>
                 <div className="invisible-box">
                     <div className="white-box"></div>
-                    <div className="name-product">Tên Sản Phẩm</div>
+                    <div className="name-product"><NavLink to="Product">Tên Sản Phẩm</NavLink></div>
                     <div className="price-product">00.00 VNĐ</div>
                 </div>
                 <div className="invisible-box">
                     <div className="white-box"></div>
-                    <div className="name-product">Tên Sản Phẩm</div>
+                    <div className="name-product"><NavLink to="Product">Tên Sản Phẩm</NavLink></div>
                     <div className="price-product">00.00 VNĐ</div>
                 </div>
                 <div className="invisible-box">
                     <div className="white-box"></div>
-                    <div className="name-product">Tên Sản Phẩm</div>
+                    <div className="name-product"><NavLink to="Product">Tên Sản Phẩm</NavLink></div>
                     <div className="price-product">00.00 VNĐ</div>
                 </div>
             </div>
         </div>
-        <img className="frame5" src="image/Frame 5.png" alt="a"/>
-        <img className="frame6" src="image/Frame 6.png" alt="a"/>
+        <img className="frame5" src="imageHome/Frame 5.png" alt="a"/>
+        <img className="frame6" src="imageHome/Frame 6.png" alt="a"/>
         <div className="frame7">
             <div className="invisible-box">
                 <div className="box1"> GET IN TOUCH</div>
@@ -158,8 +159,8 @@ const navLinkStyles = ({ isActive }) => {
                 <a className="create" href="##">Create account</a>
             </div>
         </div>
-        <img className="frame8" src="image/Frame 8.png" alt="a"/>
-        <img className="frame9" src="image/Frame 9.png" alt="a"/>
+        <img className="frame8" src="imageHome/Frame 8.png" alt="a"/>
+        <img className="frame9" src="imageHome/Frame 9.png" alt="a"/>
     </>
         )
     }
