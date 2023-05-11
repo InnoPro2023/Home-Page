@@ -18,6 +18,7 @@ const navLinkStyles = ({ isActive }) => {
 
 export const Navbar = () => {
   const [toggleMenu, setToggleMenu] = React.useState(false);
+  
   return (
 <>
     <div className="header">
@@ -36,8 +37,10 @@ export const Navbar = () => {
             <div><NavLink style={navLinkStyles} to='/products'>Products</NavLink></div>
             <div><NavLink style={navLinkStyles} to='/blog'>Blog</NavLink></div>
         </div>
-        <img className="bag" src={bag} alt='bag'/>
-        
+        <div className='navbar-cart'>
+            <img className="bag" src={bag} alt='bag'/>
+        </div>
+
         <div className='navbar-smallscreen'>
             <img className='stripes' src={stripes} alt='stripes' onClick={() => setToggleMenu(true)}/>
             {toggleMenu && (
