@@ -64,6 +64,7 @@
     background-color: gray;
     transition: 5s ease;
 
+    
     flex-direction: column;
     z-index: 5;
 }
