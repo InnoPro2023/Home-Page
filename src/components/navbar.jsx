@@ -57,7 +57,7 @@ export const Navbar = () => {
             <img className='stripes' src={images.stripes} alt='stripes' onClick={() => setToggleMenu(true)}/>
             {toggleMenu && (
                 <div className="navbar-smallscreen_overlay">
-                    <img className='x' src={images.big_x} alt='x' onClick={() => setToggleMenu(false)} />
+                    <img className='x' src={images.x} alt='x' onClick={() => setToggleMenu(false)} />
                     <div className='navbar-smallscreen_links'>
                         <div><NavLink style={navLinkStyles} to='/'>Home</NavLink></div>
                         <div><NavLink style={navLinkStyles} to='/about'>About</NavLink></div>

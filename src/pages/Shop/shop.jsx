@@ -5,13 +5,15 @@ import './shop.css';
 
 export const Shop = () => {
   return (
-  <>  
+  <> 
+  <div className='body'> 
     <Advertisement />
     <Title />
     <Show />
     <About />
     <Order />
     <Contact />
+  </div>
   </>
   )
 }

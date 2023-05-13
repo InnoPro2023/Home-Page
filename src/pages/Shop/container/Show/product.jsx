@@ -8,8 +8,7 @@ export const Product = () => {
         <div className="product-name">Chả lụa</div>
         <img className="product-price" src={images.productPrice} alt='q'/>
         <button className="hehe">
-            <img className="order" src={images.orderButton} alt='h'/>
-        </button>
+{/*            <img className="order" src={images.orderButton} alt='h'/> */}        </button>
     </div>
   )
 }
