@@ -1,5 +1,6 @@
 import React from 'react';
 import { Product } from './product';
+import { PRODUCTS } from '../../../../constants';
 import './show.css';
 
 export const Show = () => {
@@ -7,14 +8,14 @@ export const Show = () => {
 <>
     <div className="product-show1">
       <div className="line1">
-        <Product />
-        <Product />
-        <Product />
+        {PRODUCTS.map((product) => (
+          <Product data={product} />
+        ))}
       </div>
       <div className="line2">
-        <Product />
-        <Product />
-        <Product />                
+        {PRODUCTS.map((product) => (
+          <Product data={product} />
+        ))}              
       </div>
     </div>
     <div className="page-number">

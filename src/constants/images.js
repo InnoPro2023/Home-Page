@@ -19,6 +19,7 @@ import productTitle from '../assets/Products title.png';
 import searchIcon from '../assets/search-icon.png';
 import uber from '../assets/uber.png';
 import logo from '../assets/zyro-image 1.png';
+import chaBong from '../assets/Chà Bông.jpg';
 
 export default {
     stripes,
@@ -29,6 +30,7 @@ export default {
     chaChien,
     chaHoa,
     chaLua,
+    chaBong,
     ad,
     ad2,
     facts,

@@ -1,4 +1,4 @@
 import images from './images';
-import data from './data';
+import { PRODUCTS } from './data';
 
-export { images, data };
+export { images, PRODUCTS };
