@@ -2,6 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import "./navbar.css";
 import images from '../constants/images';
+import { Cart } from './Cart/cart';
 
 const navLinkStyles = ({ isActive }) => {
 	return {
@@ -45,7 +46,7 @@ export const Navbar = () => {
                             <h1> Your Cart Items </h1>
                         </div>
                         <div className="cartItems">
-
+                            <Cart />
                         </div>
                     </div>
                 </div>
