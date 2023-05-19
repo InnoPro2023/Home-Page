@@ -2,6 +2,7 @@ import React from 'react';
 import { Product } from './product';
 import { PRODUCTS } from '../../../../constants';
 import './show.css';
+import { PageNumber } from '../../../../components/PageNumber/pageNumber';
 
 export const Show = () => {
   return (
@@ -18,11 +19,7 @@ export const Show = () => {
         ))}              
       </div>
     </div>
-    <div className="page-number">
-      <button className="page">Page 1</button>
-      <button className="page">Page 2 </button>
-      <button className="page">Page 3</button>
-    </div>
+    <PageNumber />
 </>
   )
 }

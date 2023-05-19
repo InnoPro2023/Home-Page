@@ -7,6 +7,7 @@ import { Blog } from "./pages/Blog/blog";
 import { Product } from "./pages/Product/product";
 import { Footer } from './components/footer';
 import { ShopContextProvider } from './context/shopContext';
+import { Checkout } from './pages/Checkout/checkout';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
             <Route path='/about' element={<About />} />
             <Route path='/blog' element={<Blog />} />
             <Route path='/product' element={<Product />} />
+            <Route path='/checkout' element={<Checkout />} />
           </Routes>
           <Footer />
         </Router>

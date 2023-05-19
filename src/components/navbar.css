@@ -85,7 +85,7 @@
 }
 
 .navbar-cart_area .sidebar .cartItems {
-    padding-top: 60px;
+    display: flex;
 }
 
 .search-bar{

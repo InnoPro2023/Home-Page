@@ -18,12 +18,5 @@ export const PRODUCTS = [
         productName: "Giò Lụa",
         price: 48000,
         productImage: images.chaLua,
-    },
-    {
-        id: 4,
-        productName: "Chả Chiên",
-        price: 69000,
-        productImage: images.chaChien,
-    },
-    
+    },    
 ]
