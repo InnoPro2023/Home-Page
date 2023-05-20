@@ -1,0 +1,173 @@
+.second{
+    margin-top :100px;
+    height:690px;
+    margin-right:6vw;
+    margin-left:6vw;
+    display:flex;
+}
+.thong-tin{
+    position:relative;
+    height:100%;
+    width:40vw;
+    margin-right:70px;
+}
+.don-hang{
+    height:100%;
+    border:solid;
+    width:41vw;
+    border: 1px solid #BEBEBE;
+    border-radius: 12px;
+    box-sizing: border-box;
+    position:relative;
+}
+.dia-chi,.thanh-toan{
+    margin-top:2.2vw;
+    height:5vw;
+    font-size:1.4vw;
+}
+.ghi-chu{
+    margin-top:2.2vw;
+    height:11vw;
+    font-size:1.4vw;
+}
+.name-sdt{
+    display:flex;
+    margin-top:2.2vw;
+    height:5vw;
+}
+.input-box{
+    border-radius: 10px;
+    width: 90%;
+    height: 50%;
+    font-size: 1.4vw;
+    padding-left: 1.2vw;
+  }
+  .dia-chi .input-box,.thanh-toan .input-box{
+    width:96%;
+}
+.ghi-chu .input-box{
+    height:80%;
+    max-height:80%;
+    text-align:start;
+    width:96%;
+}
+
+  .input-box:focus {
+    border-bottom: 1px solid black;
+  }
+.ten{
+    width:50vw;
+    margin-right:1vw;
+    font-size:1.4vw;
+}
+.sdt{
+    width:40vw;
+    font-size:1.4vw;
+}
+.phuong-thuc{
+    border:solid;
+    border-width:2px;
+    width:45%;
+    height:50%;
+    border-radius:10px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.vector-31{
+    width:1.5vw;
+}
+.phuong-thuc button{
+    background-color:white;
+    border:none;
+    margin-right:1vw;
+}
+.phuong-thuc button:hover{
+    cursor: pointer;
+}
+.hehe{
+    margin-top:1vw;
+}
+.b2{
+    width:9vw;
+    height:auto;
+}
+.b1{
+    position:absolute;
+    margin-top:1vw;
+    right:0;
+    border:none;
+    background-color:white;
+    width:fit-content;
+    height:fit-content;
+}
+.b1:hover{
+    cursor:pointer;
+}
+.frame1 {
+    margin-top:1vw;
+    margin-left:1.8vw;
+    margin-right:1.8vw;
+    max-height: 450px;
+    overflow-y: auto;
+    position:relative;
+  }
+  
+  .sanpham1 {
+    position:relative;
+    border: 1px solid #BEBEBE;
+    border-radius: 12px;
+    height: 12vw;
+    width: 99%;
+    margin-bottom: 20px;
+    display:flex;
+  }
+  .sp{
+    width:10vw;
+    margin-top:1vw;
+    margin-bottom:1vw;
+    margin-left:1vw;
+    margin-right:0.6vw;
+  }
+  .ps{
+    width:13vw;
+  }
+  .chekout-product-name{
+    font-size:2.2vw;
+    margin-left:0.7vw;
+    margin-top:1.5vw;
+  }
+  .khoiluong{
+    margin-left:1vw;
+    font-size:1.2vw;
+    margin-top:3.1vw;
+  }
+  .soluong{
+    font-size:1.2vw;
+    margin-top:0.5vw;
+    margin-left:1vw;
+  }
+  .price{
+    width:11vw;
+    height:5vw;
+    margin-top:0.6vw;
+  }
+  .vector-30{
+    width:40vw;
+    height:0.2vw;
+    margin-top:20px;
+  }
+  .tong{
+    width:5vw;
+    margin-left:2.2vw;
+  }
+  .hiha{
+    margin-top:1.2vw;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .tonggia{
+    margin-right:2.2vw;
+    font-size:2vw;
+  }

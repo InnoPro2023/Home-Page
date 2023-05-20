@@ -18,5 +18,5 @@ export const PRODUCTS = [
         productName: "Giò Lụa",
         price: 48000,
         productImage: images.chaLua,
-    },    
+    },  
 ]

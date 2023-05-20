@@ -30,9 +30,9 @@ export const Navbar = () => {
             </button>
         </div>
         <div className="menu-bar">
-            <div><NavLink style={navLinkStyles} to='/'>Home</NavLink></div>
-            <div><NavLink style={navLinkStyles} to='/about'>About</NavLink></div>
-            <div><NavLink style={navLinkStyles} to='/product'>Products</NavLink></div>
+            <div><NavLink style={navLinkStyles} to='/'>Trang chủ</NavLink></div>
+            <div><NavLink style={navLinkStyles} to='/about'>Về công ty</NavLink></div>
+            <div><NavLink style={navLinkStyles} to='/product'>Sản phẩm</NavLink></div>
             <div><NavLink style={navLinkStyles} to='/blog'>Blog</NavLink></div>
         </div>
         
@@ -47,6 +47,9 @@ export const Navbar = () => {
                         </div>
                         <div className="cartItems">
                             <Cart />
+                {/*It is possible to have setToggleCart receives false after the code goes into
+                <Cart />. The suggested way is to have Cart returns something other than then
+                the needed content, such as a variable called "checkClose". */}
                         </div>
                     </div>
                 </div>
@@ -60,9 +63,9 @@ export const Navbar = () => {
                 <div className="navbar-smallscreen_overlay">
                     <img className='x' src={images.x} alt='x' onClick={() => setToggleMenu(false)} />
                     <div className='navbar-smallscreen_links'>
-                        <div><NavLink style={navLinkStyles} to='/'>Home</NavLink></div>
-                        <div><NavLink style={navLinkStyles} to='/about'>About</NavLink></div>
-                        <div><NavLink style={navLinkStyles} to='/products'>Products</NavLink></div>
+                        <div><NavLink style={navLinkStyles} to='/'>Trang chủ</NavLink></div>
+                        <div><NavLink style={navLinkStyles} to='/about'>Về công ty</NavLink></div>
+                        <div><NavLink style={navLinkStyles} to='/products'>Sản phẩm</NavLink></div>
                         <div><NavLink style={navLinkStyles} to='/blog'>Blog</NavLink></div>
                     </div>
                 </div>

@@ -20,6 +20,16 @@ import searchIcon from '../assets/search-icon.png';
 import uber from '../assets/uber.png';
 import logo from '../assets/zyro-image 1.png';
 import chaBong from '../assets/Chà Bông.jpg';
+import twoHundredThousand from '../assets/200.000 VND.png';
+import arrow1 from "../assets/arrow1.png";
+import arrow2 from "../assets/arrow2.png";
+import checkOut from "../assets/button than toan.png";
+import readMore from "../assets/doc them.png";
+import price from "../assets/price.png";
+import profileCircle from "../assets/profile-circle.png";
+import total from "../assets/Tổng.png";
+import lineVector from "../assets/Vector 30.png";
+import arrowDown from "../assets/Vector 31.png";
 
 export default {
     stripes,
@@ -44,4 +54,14 @@ export default {
     searchIcon,
     uber,
     logo,
+    twoHundredThousand,
+    arrow1,
+    arrow2,
+    checkOut,
+    readMore,
+    price,
+    profileCircle,
+    total,
+    lineVector,
+    arrowDown,
 }
