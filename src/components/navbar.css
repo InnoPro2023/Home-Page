@@ -6,7 +6,9 @@
     align-items: center;
     justify-content: space-between;
     font-style: normal;
-
+    position: fixed;
+    z-index:2;
+    top:0;
 }
 
 .logo{
@@ -18,18 +20,15 @@
 .logo img{
     height: 60px;
 }
-.menu-bar{
-    flex: 1;
-    width: 200px;
+.menu-bar{    
     display: flex;
     align-items: center;
     justify-content: center;
-
     list-style: none;
 }
 .menu-bar div{
     margin: 0 1rem;
-    font-size: 25px;
+    font-size: 1.75vw;
     cursor: pointer;
 }
 
@@ -98,13 +97,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 10px;
 }
 
 .search{
     width:300px;
     height: 45px;
-    
     border:none;
     font-size: 20px;
     background-color: #ECECEC;

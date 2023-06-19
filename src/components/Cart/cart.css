@@ -4,61 +4,65 @@
     justify-content: center;
     align-items: center;
     width: 100%;
+    max-height:700px;
+    overflow-y: auto;
 }
 
 .cart-cartItems {
     width: 100%;
     display: flex;
     flex-direction: column;
-
     justify-content: space-between;
     margin-right: 0px;
-
-    
 }
 
 .cartItem {
-    width: 50%;
+    width:fit-content;
     display: flex;
     flex-direction: row;
-
     border-radius: 15px;
     margin: 15px;
-    
 }
 
 .cartItem img {
     width: 10vw;
-    display: flex;
-    margin-left: 0px;    
 }
 
 .cartItem .description {
-    width: 10px;
-    height: 20px;
+    width: fit-content;
+    height: fit-content;
+    margin-left: 1vw;
     font-size: 2vw;
+    display:flex;
+    flex-direction: column;
 }
-
-.cartItem .description b {
-    
-}
-
 .countHandler {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
+    height:2.1vw;
+    margin-top:0.2vw;
 }
 
 .countHandler input {
-    width: 1vw;
+    width: 3vw;
     text-align: center;
     font-weight: bolder;
 }
-
+.countHandler .minus{
+    width:2.5vw;
+}
+.countHandler .plus{
+    width:2.5vw;
+}
+.checkout .Total{
+    font-size: 1.3vw;
+}
 .checkout button {
     width: 5vw;
     height: 5vw;
     background-color: rgb(19, 19, 19);
+    font-size:1vw;
     color: white;
     border: none;
     border-radius: 8px;
